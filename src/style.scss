@@ -1,7 +1,9 @@
+$unit: 8px;
+
 .container {
     margin: auto;
     text-align: center;
-    max-width: 600px;
+    padding: 0 $unit * 10;
 
     &__image {
         width: 100px;
@@ -11,4 +13,20 @@
 
 .left {
     text-align: left;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: $unit;
+    padding: $unit 0;
+}
+
+.card {
+    border: 1px solid grey;
+    padding: $unit;
+
+    * {
+        color: darkslategrey;
+    }
 }
