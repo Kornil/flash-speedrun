@@ -20,6 +20,9 @@ const App = () => (
         <li>
           <Link to="/wiki">Wikipedia Viewer</Link>
         </li>
+        <li>
+          <Link to="/weather">Weather Viewer</Link>
+        </li>
       </ul>
       <Routes />
     </main>

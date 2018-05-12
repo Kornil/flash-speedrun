@@ -23,8 +23,14 @@ $unit: 8px;
 }
 
 .card {
+    max-width: 400px;
     border: 1px solid grey;
     padding: $unit;
+
+    &__weather {
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
 
     * {
         color: darkslategrey;
