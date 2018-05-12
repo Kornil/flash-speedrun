@@ -32,6 +32,11 @@ $unit: 8px;
         grid-column-end: 4;
     }
 
+    &__quote {
+        grid-column-start: 2;
+        grid-column-end: 5;
+    }
+
     * {
         color: darkslategrey;
     }

@@ -23,6 +23,9 @@ const App = () => (
         <li>
           <Link to="/weather">Weather Viewer</Link>
         </li>
+        <li>
+          <Link to="/quotes">Random Quotes</Link>
+        </li>
       </ul>
       <Routes />
     </main>
