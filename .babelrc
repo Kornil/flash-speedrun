@@ -1,7 +1,11 @@
 {
   "presets": ["react", ["env", { "modules": false }]],
-  "plugins": ["react-hot-loader/babel", "syntax-async-functions",
-    "transform-class-properties", "babel-plugin-transform-object-rest-spread"],
+  "plugins": [
+    "syntax-async-functions",
+    "transform-class-properties",
+    "babel-plugin-transform-object-rest-spread",
+    "react-hot-loader/babel"
+  ],
   "env": {
     "test": {
       "presets": ["react", ["env", { "modules": "commonjs" }]],
