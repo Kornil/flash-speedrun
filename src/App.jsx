@@ -18,7 +18,7 @@ const App = () => (
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <Link to="/wiki">Wikipedia Viewer</Link>
         </li>
       </ul>
       <Routes />
