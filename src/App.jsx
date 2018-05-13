@@ -26,6 +26,9 @@ const App = () => (
         <li>
           <Link to="/quotes">Random Quotes</Link>
         </li>
+        <li>
+          <Link to="/twitch">Twitch</Link>
+        </li>
       </ul>
       <Routes />
     </main>

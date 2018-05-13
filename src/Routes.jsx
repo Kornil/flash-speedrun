@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
-import { Home, About, WikipediaViewer, Weather, Quotes } from './containers';
+import { Home, About, WikipediaViewer, Weather, Quotes, Twitch } from './containers';
 
 const Routes = () => (
   <Switch>
@@ -9,6 +9,7 @@ const Routes = () => (
     <Route path="/wiki" component={WikipediaViewer} />
     <Route path="/weather" component={Weather} />
     <Route path="/quotes" component={Quotes} />
+    <Route path="/twitch" component={Twitch} />
   </Switch>
 );
 
